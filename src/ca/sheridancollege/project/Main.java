@@ -7,11 +7,10 @@ package ca.sheridancollege.project;
 import java.util.Scanner;
 public class Main {
    public static void main(String[] args) {
-       boolean ok = Junit.test(5, 3);
-       System.out.println("valid" + ok);
+      
        Scanner input = new Scanner(System.in);
        GroupOfCards grpOfCrds = new GroupOfCards();
-       // Cards crd = new Cards();
+      
        // cards in the card deck
        GroupOfCards.deck = Cards.createStack();
        // deviding deck in half for 2 players
